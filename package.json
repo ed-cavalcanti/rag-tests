@@ -1,0 +1,29 @@
+{
+  "name": "rag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@langchain/community": "^0.3.10",
+    "@langchain/core": "^0.3.15",
+    "@langchain/google-genai": "^0.1.2",
+    "express": "^4.21.1",
+    "langchain": "^0.3.5",
+    "pdf-parse": "^1.1.1",
+    "ts-node": "^10.9.2"
+  }
+}
